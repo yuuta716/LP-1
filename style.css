@@ -255,7 +255,7 @@ footer {
 }
 
 /* スマホ画面 */
-@media(max-width:800px) {
+@media(max-width:900px) {
   .header {
     display: block;
     width: 45%;
@@ -378,16 +378,16 @@ footer {
   }
 
   .experience h3 {
-    top: 25%;
+    top: 22%;
   }
 
   .professionalTeam h3 {
-    top: 57%;
+    top: 54%;
     left: 0;   
   }
 
   .service h3 {
-    top: 91%;
+    top: 88%;
     left: 0;
   }
 
@@ -414,12 +414,15 @@ footer {
   }
 
   .news-content{
-    margin-left: 80px;
+    margin-left: 30px;
   }
 
-  .column-content{
-    margin-left: 100px;
+  .column {
     overflow-y: scroll;
+  }
+  
+  .column-content{
+    margin-left: 20px;
   }
 
   .foresight {
@@ -427,11 +430,22 @@ footer {
   }
 
   .fore {
-    margin: 50px 60px 0;
+    text-align: center;
   }
 
-.sight {
-  margin: 0 60px 20px;
-}
+  .sight {
+     text-align: center;
+   }
+
+   .fore img {
+    width: 70%;
+    height: 200px;
+    object-fit: cover;
+  }
+  .sight img {
+    width: 70%;
+    height: 200px;
+    object-fit: cover;
+  }
 
 }
