@@ -4,7 +4,7 @@
   padding: 0;
 }
 .container {
-  background-image: url("img/architecture.jpg");
+  background-image: url("img/sasha.jpg");
   background-size: contain;
   height: 100%;
   width: 100%;
@@ -58,6 +58,7 @@
 
 .main-1 h2 {
   color: aliceblue;
+  font-size: 20px;
   padding: 16px;
 }
 .pillar {
@@ -94,25 +95,26 @@
   position: absolute;
   top: 75%;
   left: 0;
-  color: blue;
+  color: black;
 }
 .professionalTeam h3 {
   position: absolute;
   top: 75%;
   left: 28%;
-  color: blue;
+  color: black;
 }
 .service h3 {
   position: absolute;
   top: 75%;
   left: 65%;
-  color: blue;
+  color: black;
 }
 /* main-2*/
 .main-2 h2 {
   color: aliceblue;
   padding: 20px;
   margin-top: 10px;
+  font-size: 20px;
 }
 .mission {
   display: flex;
@@ -139,7 +141,9 @@
   text-align: left;
   line-height: 30px;
   margin-top: 10px;
-  color: aliceblue;
+  font-weight: bold;
+  color: white;
+  z-index: 999;
 }
 .btn {
   font-size: 20px;
@@ -162,7 +166,7 @@
   font-size: 16px;
   margin-top: 30px;
   margin-left: 20px;
-  color: blue;
+  color: black;
   text-wrap: nowrap;
 }
 .nc {
@@ -192,7 +196,7 @@
   font-size: 16px;
   margin-top: 30px;
   margin-left: 20px;
-  color: blue;
+  color: black;
   text-wrap: nowrap;
 }
 .column-content{
@@ -273,6 +277,10 @@ footer {
     height: 300px;
     margin-bottom: 0;
   }
+
+  .main-1 h2 {
+    font-size: 24px;
+  }
   
   .pillar {
     margin: 50px 100px 0;
@@ -281,19 +289,23 @@ footer {
     position: absolute;
     top: 75%;
     left: 0;
-    color: blue;
+    color: black;
   }
   .professionalTeam h3 {
     position: absolute;
     top: 75%;
     left: 28%;
-    color: blue;
+    color: black;
   }
   .service h3 {
     position: absolute;
     top: 75%;
     left: 65%;
-    color: blue;
+    color: black;
+  }
+
+  .main-2 h2 {
+    font-size: 24px;
   }
 
   .pic-2 img{
@@ -319,7 +331,9 @@ footer {
     text-align: left;
     line-height: 25px;
     margin-top: 5px;
-    color: aliceblue;
+    font-weight: bold;
+    color: white;
+    z-index: 999;
   }
   .btn {
     font-size: 20px;
@@ -366,6 +380,7 @@ footer {
     top: 0;
     right: 20px;
     cursor: pointer;
+    z-index: 999;
   }
 
   .sp-menu #open.hide {
@@ -395,7 +410,7 @@ footer {
   }
 
   .overlay #close {
-    color: blue;
+    color: black;
     position: absolute;
     top: 16px;
     right: 16px;
@@ -418,7 +433,7 @@ footer {
 
   .overlay ul {
     list-style: none;
-    margin: 50px auto;
+    margin: 100px auto;
     padding: 0;
   }
 
@@ -432,7 +447,7 @@ footer {
   .overlay.show li {
     opacity: 1;
     transform: none;
-    margin-top: 15px;
+    margin-top: 60px;
   }
 
   .overlay.show li:nth-child(1) {
@@ -462,7 +477,7 @@ footer {
     padding: 10px;
     font-size: 24px;
     font-weight: bold;
-    color: black;
+    color: white;
   }
 
   .pillar {
@@ -471,8 +486,8 @@ footer {
     height: 15%;
     margin-left: 0;
     margin-top: 16px;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
   }
   .experience img {
     width: 100%;
@@ -507,13 +522,13 @@ footer {
   }
 
   .experience p {
-    background-color: black;
+    background-color: white;
   }
   .professionalTeam p {
-    background-color: black;
+    background-color: white;
   }
   .service p {
-    background-color: black;
+    background-color: white;
   }
 
   .mission {
@@ -524,8 +539,9 @@ footer {
   }
 
   .main-2 h2 {
+    font-size: 24px;
     padding-left: 8px;
-    color: black;
+    color: white;
     font-weight: bold;
   }
   .pic-2 img{
@@ -543,7 +559,7 @@ footer {
     margin-top: 0;
     /* text-align: left; */
     line-height: 50px;
-    color: aliceblue;
+    color: white;
     padding: 0;
   }
   .content p{
@@ -551,7 +567,9 @@ footer {
     text-align: left;
     line-height: 25px;
     margin-top: 5px;
-    color: aliceblue;
+    color: white;
+    font-weight: bold;
+    z-index: 999;
   }
   .btn {
     font-size: 16px;
@@ -666,106 +684,6 @@ footer {
   .menu {
     display: none;
   }
-  .sp-menu {
-    margin-left: 0;
-    position: relative;
-    display: flex;
-    font-size: 60px;
-    z-index: 4;
-  }
-
-  .material-icons#open {
-    font-size: 40px;
-    color: white;
-    transform: translateY(20px);
-    position: fixed;
-    top: 0;
-    right: 20px;
-    cursor: pointer;
-  }
-
-  .sp-menu #open.hide {
-    display: none;
-  }
-
-  .overlay {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(255, 255, 255, 0.95);
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity .6s;
-  }
-
-  .overlay.show {
-    opacity: 1;
-    background-image: url(img/sakura-1.jpg);
-    background-size: cover;
-    pointer-events: auto;
-    text-align: center;
-    display: block;
-    z-index: 5;
-  }
-
-  .overlay #close {
-    color: blue;
-    position: absolute;
-    top: 16px;
-    right: 16px;
-    font-size: 32px;
-    cursor: pointer;
-  }
-
-  .overlay a {
-    display: inline-block;
-    text-decoration: none;
-    text-align: center;
-    color: gold;
-    background-color: rgba(0, 0, 0, 0.758);
-    width: 130px;
-    height: 40px;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    border: 1px solid red;
-  }
-
-  .overlay ul {
-    list-style: none;
-    margin: 50px auto;
-    padding: 0;
-  }
-
-  .overlay li {
-    margin-top: 20px;
-    opacity: 0;
-    transform: translateY(16px);
-    transition: opacity .3s, transform .3s;
-  }
-
-  .overlay.show li {
-    opacity: 1;
-    transform: none;
-    margin-top: 15px;
-  }
-
-  .overlay.show li:nth-child(1) {
-    transition-delay: .1s;
-  }
-
-  .overlay.show li:nth-child(2) {
-    transition-delay: .2s;
-  }
-
-  .overlay.show li:nth-child(3) {
-    transition-delay: .3s;
-  }
-
-  .overlay.show li:nth-child(4) {
-    transition-delay: .4s;
-  }
 
   .pic img {
     width: 100%;
@@ -775,9 +693,9 @@ footer {
   
   .main-1 h2 {
     padding: 10px;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
-    color: black;
+    color: white;
   }
 
   .pillar {
@@ -786,8 +704,8 @@ footer {
     height: 15%;
     margin-left: 0;
     margin-top: 16px;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
   }
   .experience img {
     width: 100%;
@@ -822,14 +740,14 @@ footer {
   }
 
   .experience p {
-    background-color: black;
+    background-color: white;
   }
   .professionalTeam p {
-    background-color: black;
+    background-color: white;
   }
   .service p {
-    background-color: black;
-  }
+    background-color: white;
+  } 
 
   .mission {
     display: flex;
@@ -839,8 +757,9 @@ footer {
   }
 
   .main-2 h2 {
+    font-size: 20px;
     padding-left: 8px;
-    color: black;
+    color: white;
     font-weight: bold;
   }
   .pic-2 img{
@@ -866,7 +785,9 @@ footer {
     text-align: left;
     line-height: 25px;
     margin-top: 5px;
-    color: aliceblue;
+    font-weight: bold;
+    color: white;
+    z-index: 999;
   }
   .btn {
     font-size: 16px;
@@ -907,7 +828,7 @@ footer {
   }
 
   .sight {
-    margin-top: 40px; 
+    margin-top: 60px; 
     margin-left: 8px;
   }
 
@@ -974,106 +895,6 @@ footer {
   .title {
     white-space: nowrap;
   }
-  .sp-menu {
-    margin-left: 0;
-    position: relative;
-    display: flex;
-    font-size: 60px;
-    z-index: 4;
-  }
-
-  .material-icons#open {
-    font-size: 40px;
-    color: white;
-    transform: translateY(20px);
-    position: fixed;
-    top: 0;
-    right: 20px;
-    cursor: pointer;
-  }
-
-  .sp-menu #open.hide {
-    display: none;
-  }
-
-  .overlay {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(255, 255, 255, 0.95);
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity .6s;
-  }
-
-  .overlay.show {
-    opacity: 1;
-    background-image: url(img/sakura-1.jpg);
-    background-size: cover;
-    pointer-events: auto;
-    text-align: center;
-    display: block;
-    z-index: 5;
-  }
-
-  .overlay #close {
-    color: blue;
-    position: absolute;
-    top: 16px;
-    right: 16px;
-    font-size: 32px;
-    cursor: pointer;
-  }
-
-  .overlay a {
-    display: inline-block;
-    text-decoration: none;
-    text-align: center;
-    color: gold;
-    background-color: rgba(0, 0, 0, 0.758);
-    width: 130px;
-    height: 40px;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    border: 1px solid red;
-  }
-
-  .overlay ul {
-    list-style: none;
-    margin: 50px auto;
-    padding: 0;
-  }
-
-  .overlay li {
-    margin-top: 20px;
-    opacity: 0;
-    transform: translateY(16px);
-    transition: opacity .3s, transform .3s;
-  }
-
-  .overlay.show li {
-    opacity: 1;
-    transform: none;
-    margin-top: 15px;
-  }
-
-  .overlay.show li:nth-child(1) {
-    transition-delay: .1s;
-  }
-
-  .overlay.show li:nth-child(2) {
-    transition-delay: .2s;
-  }
-
-  .overlay.show li:nth-child(3) {
-    transition-delay: .3s;
-  }
-
-  .overlay.show li:nth-child(4) {
-    transition-delay: .4s;
-  }
 
   .pic img {
     width: 100%;
@@ -1082,6 +903,7 @@ footer {
   }
   
   .main-1 h2 {
+    font-size: 20px;
     padding: 10px;
   }
 
@@ -1132,12 +954,13 @@ footer {
   }
 
   .main-2 h2 {
+    font-size: 20px;
     padding-left: 8px;
     font-size: 16px;
   }
   .pic-2 img{
     width: 150px;
-    height: 400px;
+    height: 450px;
     margin-left: 0;
     object-fit: cover;
   }
@@ -1154,17 +977,19 @@ footer {
     padding: 0;
   }
   .content p{
-    font-size: 16px;
+    font-size: 18px;
     text-align: left;
     line-height: 24px;
-    margin-top: 5px;
-    color: aliceblue;
+    margin-top: 12px;
+    font-weight: bold;
+    color: white;
+    z-index: 999;
   }
   .btn {
     font-size: 12px;
     border: 1px solid black;
     padding: 10px 20px;
-    margin-top: 8px;
+    margin-top: 24px;
     margin-left: 16px;
     cursor: pointer;
     border-radius: 4px;
@@ -1189,7 +1014,7 @@ footer {
   }
 
   .sight {
-    margin-top: 40px; 
+    margin-top: 60px; 
     margin-left: 4px;
   }
 
@@ -1208,6 +1033,14 @@ footer {
   }
 
   .sight h3 {
+    font-size: 13px;
+  }
+
+  .fore a {
+    font-size: 13px;
+  }
+
+  .sight a {
     font-size: 13px;
   }
 
@@ -1252,6 +1085,7 @@ footer {
   }
   
   .main-1 h2 {
+    font-size: 20px;
     padding: 10px;
   }
 
@@ -1302,11 +1136,12 @@ footer {
   }
 
   .main-2 h2 {
+    font-size: 20px;
     padding-left: 8px;
   }
   .pic-2 img{
     width: 150px;
-    height: 400px;
+    height: 450px;
     margin-left: 0;
     object-fit: cover;
   }
@@ -1323,11 +1158,13 @@ footer {
     padding: 0;
   }
   .content p{
-    font-size: 16px;
+    font-size: 18px;
     text-align: left;
     line-height: 20px;
-    margin-top: 5px;
-    color: aliceblue;
+    margin-top: 12px;
+    font-weight: bold;
+    color: white;
+    z-index: 999;
   }
   .btn {
     font-size: 10px;
@@ -1358,7 +1195,7 @@ footer {
   }
 
   .sight {
-    margin-top: 40px; 
+    margin-top: 60px; 
   }
 
   .fore img {
@@ -1372,6 +1209,14 @@ footer {
   }
 
   .fore h3 {
+    font-size: 13px;
+  }
+
+  .fore a {
+    font-size: 13px;
+  }
+
+  .sight a {
     font-size: 13px;
   }
 
